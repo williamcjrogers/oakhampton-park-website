@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const showcaseImg = document.getElementById('showcase-img');
             if (showcaseImg) {
                 const images = {
-                    'bedrooms': 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                    'living': 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                    'dining': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+                    'bedrooms': 'https://oakhamptonpark.co.uk/uploads/four-posted-bed.jpg',
+                    'living': 'https://oakhamptonpark.co.uk/uploads/hearth.jpg',
+                    'dining': 'https://oakhamptonpark.co.uk/uploads/hearth.jpg'
                 };
                 if (images[tabId]) {
                     showcaseImg.src = images[tabId];
@@ -64,10 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // Change hero background based on selected image
             const hero = document.querySelector('.hero');
             const images = {
-                'main-lounge': 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80',
-                'pool': 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80',
-                'snooker': 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80',
-                'bedroom': 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80'
+                'main-lounge': 'https://oakhamptonpark.co.uk/uploads/hearth.jpg',
+                'pool': 'https://oakhamptonpark.co.uk/uploads/pool-splash-resize.jpg',
+                'snooker': 'https://oakhamptonpark.co.uk/uploads/snooker.jpg',
+                'bedroom': 'https://oakhamptonpark.co.uk/uploads/four-posted-bed.jpg'
             };
             const imageType = this.getAttribute('data-image');
             if (images[imageType] && hero) {

@@ -84,7 +84,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+                url('https://oakhamptonpark.co.uk/uploads/hearth.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
